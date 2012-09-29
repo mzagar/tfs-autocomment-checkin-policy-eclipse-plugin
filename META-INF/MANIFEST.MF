@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TFS Auto Comment Check-in Policy
+Bundle-SymbolicName: com.mzagar.tfs.checkinpolicy.autocomment;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: Mario Zagar
+Export-Package: com.mzagar.tfs.checkinpolicy.autocomment
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ com.microsoft.tfs.checkinpolicies
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ClassPath: .
