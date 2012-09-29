@@ -2,6 +2,7 @@ Auto Comment Checkin Policy Eclipse TFS Plugin
 ===============================================
 
 Simple check in policy that will autogenerate check-in comment from associated work items.
+If no work item is associated and no comment is specified, policy will fail.
 If comment is specified, then work item association is not mandatory.
 
 
